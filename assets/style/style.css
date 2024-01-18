@@ -62,14 +62,17 @@ nav ul{
   padding: 5px;
 }
 
-
-
 .jumbotron{
   display: flex;
   background-color: #00008b;
   height: 500px;
   justify-content: center;
   align-items: center;
+}
+
+.button-jumbo{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .box{
@@ -148,11 +151,7 @@ nav ul{
 }
 
 hr{
-  display: flex;
-  color: red;
-  border: 2px solid yellow;
-  align-items: center;
-  flex-wrap: wrap;
+  border: 1px solid red;
 }
 
 .black-2{
